@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function as Firstclass Citizen</title>
+</head>
+
+<body>
+    <h1>Function as Firstclass Citizen</h1>
+</body>
+<script>
+    // ---------------1--------------------
+    // const add = (a, b) => {
+    //     console.log(a + b);
+    // }
+
+    // add(5, 8);
+    // ---------------2--------------------
+    // This is also known as Global Function
+    // function greet(a, b) {
+    //     console.log(a() + b);
+    // }
+
+    // function hello() {
+    //     return "Hello ";
+    // }
+    // greet(hello, "world")
+
+    // const obj = {
+    //     name: "Rai",
+    //     quali: function () {
+    //         console.log("B.E Electrical");
+    //     }
+    // }
+    // obj.quali();
+    // ---------------3--------------------
+
+    function Robo() {
+        return function Endworld() {
+            console.log("finished this world");
+        }
+    }
+    // This is are the way to call a function inside a function which is going to be return.
+    Robo()();
+    const fun = Robo();
+    fun();
+</script>
+
+</html>

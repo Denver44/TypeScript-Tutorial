@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Method</title>
+</head>
+
+<body>
+    <h1>Apply Method</h1>
+</body>
+<script>
+    const youtube = {
+        name: "EasyCode",
+        content: "Programming",
+        feature: function (rating, msg) {
+            console.log(
+                `Very nice channel ${this.name} and the content realted to ${this.content} is very good please rate ${rating} and ${msg}.`
+            )
+        }
+    }
+
+    const youtube2 = {
+        name: "CodeTechie",
+        content: "Techno",
+
+    }
+
+    //------------------------APPLY Method----------------
+    youtube.feature.call(youtube2, [4, "Do not subscribe"]);
+
+    // As in array we cannnot use direct math.max so use apply()  to get max value.
+    // this is the usage of the apply in the js.
+    let max = Math.max.apply(null, [1, 2, 3, 4, 55])
+    console.log(max)
+</script>
+
+</html>

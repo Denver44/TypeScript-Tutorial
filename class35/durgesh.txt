@@ -1,0 +1,3 @@
+I am Durgesh Rai 
+i had just used this by making Get request 
+Ajax help us to get our data without reloading the page.

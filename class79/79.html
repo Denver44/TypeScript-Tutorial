@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+
+<body>
+    <h1>Exercise 4 Closure</h1>
+</body>
+<script>
+    const Question = (name) => {
+        return function (topic) {
+            if (name === "Durgesh") {
+
+                console.log(`hii ${name}. Your First Question is ${topic}. `);
+            }
+            if (name === "Vishal") {
+
+
+                console.log(`hii ${name}. Your First Question is ${topic}. `);
+
+            }
+            if (name === "Denver") {
+
+                console.log(`hii ${name}. Your First Question is ${topic}. `);
+
+            }
+        }
+    }
+
+
+
+    const a = Question("Durgesh");
+    a("Describe Queue list Data Structure.");
+    const b = Question("Vishal")
+    b("Heap");
+    const c = Question("Denver")
+    c("What is BST");
+</script>
+
+</html>

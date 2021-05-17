@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIFE (Immediately Invoked Function Expression)</title>
+</head>
+
+<body>
+    <h1>Immediately Invoked Function Expression</h1>
+</body>
+<script>
+    // function authorname(name) {
+    //     console.log(`hii ${name}.`);
+    // }
+    // authorname("Durgesh")
+    // ------------------IIFE-----------------
+    (function authorname(name) {
+        console.log(`hii ${name}.`);
+    }("Durgesh"))
+</script>
+
+</html>

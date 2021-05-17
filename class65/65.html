@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Stack and Execution Context</title>
+</head>
+
+<body>
+    <h1>Call Stack and Execution Context</h1>
+</body>
+<script>
+    var globalEC = "added";
+
+    function a() {
+        var fa = "2 nd Function o/p1";
+        console.log(fa);
+        debugger;
+        b();
+        console.log("lets see when i will be on Console.");
+
+    }
+
+    function b() {
+
+        debugger;
+        console.log("2nd function o/p2");
+        c();
+
+    }
+
+    function c() {
+        debugger;
+        console.log("3rd function o/p1");
+    }
+    debugger;
+    a();
+</script>
+
+</html>
