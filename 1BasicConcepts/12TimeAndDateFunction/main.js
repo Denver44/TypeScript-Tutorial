@@ -1,28 +1,27 @@
-console.log("we are on tut 24");
+// Js has Built in function for the date and time which is Date()
 
-// JAVASCRIPT HAS A INBUILT FUNCTION FOR THE TIME AND DATE THE FUNCTION IS Date()
 let today = new Date();
 console.log(today);
-console.log (typeof today); // it is object datatype as we know
+console.log(typeof today); // it is object datatype as we know
 
 // to create other date
 
-let otherdate = new Date("06-24-2020") // use new keyword to create a date object and then write the date in strinf format
-otherdate = new Date("June 24 2020")  // MM-DD-YYYY
-otherdate = new Date("06/24/2020")
-//  otherdate = new Date("06-24-2020")
-// console.log(otherdate);
+let otherDate = new Date("06-24-2020"); // use new keyword to create a date object and then write the date in string format
+otherDate = new Date("June 24 2020"); // MM-DD-YYYY
+otherDate = new Date("06/24/2020");
+//  otherDate = new Date("06-24-2020")
+// console.log(otherDate);
 
-let a = otherdate.getDay();
-a = otherdate.getDate();
-a = otherdate.getMinutes();
-a = otherdate.getMonth();
-a = otherdate.getMilliseconds();
+let a = otherDate.getDay();
+a = otherDate.getDate();
+a = otherDate.getMinutes();
+a = otherDate.getMonth();
+a = otherDate.getMilliseconds();
 console.log(a);
-a = otherdate.setDate(4)
-a = otherdate.setMonth(3)
-a = otherdate.setFullYear(1999)
-a = otherdate.setMinutes(15);
-a = otherdate.setHours(9);
+a = otherDate.setDate(4);
+a = otherDate.setMonth(3);
+a = otherDate.setFullYear(1999);
+a = otherDate.setMinutes(15);
+a = otherDate.setHours(9);
 
-console.log(otherdate);
+console.log(otherDate);

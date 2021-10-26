@@ -1,5 +1,3 @@
-// NOTE:- The functions date object and array memory store in heap.
-
 // PRIMITIVE DATA TYPES
 // string
 
@@ -61,3 +59,5 @@ console.log(typeof myFunc1);
 
 let date = new Date();
 console.log(typeof date);
+
+// NOTE:- The functions date object and array memory store in heap.

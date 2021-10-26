@@ -1,12 +1,12 @@
-//  TYPE CONVERSION
-
 //  int to string  using String()
+
 let myVar = 56;
 console.log(myVar, typeof myVar, myVar);
 myVar2 = String(80);
 console.log(myVar, typeof myVar);
 
 //  BOOL TO STRING
+
 let booleanVar = String(true);
 console.log(booleanVar, typeof booleanVar);
 

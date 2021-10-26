@@ -32,8 +32,8 @@ console.log("Is a Array function ", Array.isArray(abcd));
 // marks.unshift(100); // at top insertion
 // marks.pop(); // remove at back
 // marks.shift(); // remove from top
-// console.log(marks.splice(0, 3)); // start from 0 and endswith 2
-// console.log(marks.reverse()); // start from 0 and endswith 2
+// console.log(marks.splice(0, 3)); // start from 0 and endsWith 2
+// console.log(marks.reverse()); // start from 0 and endsWith 2
 // marks.reverse();
 // let marks2 = [34, 23, 24];
 // marks = marks.concat(marks2);
@@ -58,18 +58,18 @@ arr.map((element) => console.log(element));
 
 // We can also access object like below
 
-let myobj = {
+let myObj = {
   name: "Denver",
   Channel: "Coders",
   isActive: true,
   marks3: [1, 2, 3, 4, 5],
 };
 
-// console.log(myobj);
-// console.log(myobj.name);
-// console.log(myobj.Channel);
-// console.log(myobj.isActive); // 1st way to acess the key of object
-// console.log(myobj.marks3);
-// console.log(myobj.marks3[0]);
-// console.log(myobj.marks3[1]);
-// console.log(myobj['isActive']); // 2nd way
+// console.log(myObj);
+// console.log(myObj.name);
+// console.log(myObj.Channel);
+// console.log(myObj.isActive); // 1st way to access the key of object
+// console.log(myObj.marks3);
+// console.log(myObj.marks3[0]);
+// console.log(myObj.marks3[1]);
+// console.log(myObj['isActive']); // 2nd way
