@@ -1,15 +1,10 @@
-console.log("we are on Tutorial 8");
-document.write("<h1> If and else- if </h1>");
-
 // IMP NOTES
 //1. To compare the value both value and dataTypes use  ===
 //2. To compare the value not datatype then se ==
 //3. for comparing the not equal to value use !== for both dataTypes and value
 
 const age = 18;
-
 let doesDrive = true;
-
 let variable;
 
 if (age === 18) {
