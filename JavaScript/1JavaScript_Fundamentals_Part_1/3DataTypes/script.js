@@ -1,4 +1,3 @@
-// PRIMITIVE DATA TYPES
 // string
 
 let name1 = "DENVER";
@@ -31,6 +30,8 @@ let undef = undefined;
 console.log(undef);
 console.log(typeof undef);
 
+// SYMBOLS
+
 // REFERENCE DATA TYPES
 
 // ARRAY
@@ -60,4 +61,14 @@ console.log(typeof myFunc1);
 let date = new Date();
 console.log(typeof date);
 
-// NOTE:- The functions date object and array memory store in heap.
+// PRIMITIVE DATA TYPES
+// 1. string
+// 2. Number
+// 3. Boolean
+// 4. Undefined
+// 5. Null
+// 6. Symbol(ES2015)
+// 7. BigInt (For Large Integer Number )
+// NOTE:-
+// 1. U will most use first three only
+// 2. The functions date object and array memory store in heap.
