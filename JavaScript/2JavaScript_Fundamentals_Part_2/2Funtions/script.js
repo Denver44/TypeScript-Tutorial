@@ -31,10 +31,27 @@ const obj = {
 console.log(obj.game());
 
 FUNCTIONS;
+
 function addName(x, y) {
   let a = x,
     b = y;
   document.write("<> the total is " + (a + b) + "</>");
 }
 
+// Calling / Invoking / running / executing function
 addName(2, 56);
+
+// Function Declaration
+function calcAge1(birthYear) {
+  return 2020 - birthYear;
+}
+
+const age1 = calcAge1(1997);
+
+// Function expression
+const calcAge2 = function (birthYear) {
+  return 2020 - birthYear;
+};
+const age2 = calcAge2(1997);
+
+console.log(age1, age2);
